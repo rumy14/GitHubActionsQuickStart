@@ -24,7 +24,7 @@ public class VehicleTest {
     }
 
     private void whenDrive100() {
-        vehicle.go(100);
+        vehicle.go(105);
     }
 
     private void thenOdometerIncreasesBy100AndGallonsOfGasDecreasesBy5() {
